@@ -102,10 +102,75 @@
 //     age : 19,
 //     weight : " :) "
 // }
+// // let name = "name"
+// console.log(obj["na" + "me"])
 
 // const {name, ...rest} = obj
-// console.log(name)
 // console.log(rest)
+
+
+
+// const obj2 = {
+//     brand : "dell",
+//     years : 2018,
+// }
+// // obj2.owner = "me"
+// // obj2.brand = "apple"
+
+
+// const arrayObj = [obj2,obj]
+// console.log(arrayObj)
+
+
+
+// function rolls(){
+//     const roll = Math.floor(Math.random() * 6 + 1)
+//     console.log(roll)
+// }
+// function third(element){
+//     element()
+//     element()
+//     element()
+// }
+
+// third(rolls)
+
+
+
+// const myMath = {
+//     // power : function(pow){
+//     //     return pow * pow
+//     // },
+//     power(pow){
+//         return pow * pow
+//     }
+// }
+
+// console.log(myMath.power(8))
+
+
+// const fc = {
+//     first: "perspolis",
+//     secound : "kise :)",
+//     third : "sepahan"
+// }
+
+// // console.log(Object.keys(fc))
+// console.log(Object.values(fc))
+
+
+
+// const car = {
+//     peraid : "1398",
+//     porshe : "2022",
+//     bmw : "2021",
+//     peykan : "1340"
+// }
+
+// for (let x in car){
+//     console.log(`the car is ${x} and the years of car is ${car[x]}`)
+// }
+
 
 
 
