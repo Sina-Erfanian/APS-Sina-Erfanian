@@ -62,6 +62,63 @@
 
 
 
+/////////////////////////////////////////////////////////////////
+
+
+//jozve
+
+// let dice1= Math.floor(Math.random() * 6 + 1) 
+// let dice2= Math.floor(Math.random() * 6 + 1) 
+
+// let roll = `you rolled a ${dice1} and ${dice2}.they sum is ${dice1 + dice2}`
+
+// console.log(roll)
+
+
+
+
+// let trafficSign = prompt("Enter Traffic sign")
+
+// if(trafficSign === "stop"){
+//     alert("red")
+// }else if(trafficSign === "slow"){
+//     alert("yellow")
+// }else if(trafficSign === "go"){
+//     alert("green")
+// } else{
+//     alert("purple")
+// }
+
+
+// let password = prompt("Enter your password")
+
+// if(password.length > 6){
+//     if(password.indexOf(" ") === -1){
+//         alert("your password is strong")
+//     }else{
+//         alert("your password is contain empty string")
+//     }
+// }else{
+//     alert("your password is week")
+// }
+
+
+let movies = ["Harry Potter", "12 angry men", 'A dog"s life', "dark coffee"];
+
+
+let a = movies[0].slice(0,5)
+
+console.log(a)
+
+
+
+
+
+
+
+
+
+
 
 
 
