@@ -1,0 +1,133 @@
+p {
+  color: #5151e9;
+}
+
+nav ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: red;
+}
+
+span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+em {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myArticle {
+  border: 1px solid red;
+}
+
+.myArticle2 {
+  border: 3px solid green;
+}
+
+.button-basic, .button-report {
+  border: none;
+  font-size: 13px;
+}
+
+.button-report {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.article-1 {
+  width: 8.33%;
+}
+
+.article-2 {
+  width: 16.66%;
+}
+
+.article-3 {
+  width: 24.99%;
+}
+
+.article-4 {
+  width: 33.32%;
+}
+
+.article-5 {
+  width: 41.65%;
+}
+
+.article-6 {
+  width: 49.98%;
+}
+
+.article-7 {
+  width: 58.31%;
+}
+
+.article-8 {
+  width: 66.64%;
+}
+
+.article-9 {
+  width: 74.97%;
+}
+
+.name-1 {
+  font-size: 7px;
+}
+
+.name-2 {
+  font-size: 8px;
+}
+
+.name-3 {
+  font-size: 9px;
+}
+
+.name-4 {
+  font-size: 10px;
+}
+
+.name-5 {
+  font-size: 11px;
+}
+
+.br-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+}
+
+.br-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */

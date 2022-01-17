@@ -1,0 +1,124 @@
+
+// variable
+$bg-color : red;
+$color : rgb(81, 81, 233);
+$font-size : 18px;
+
+
+p{
+    color: $color;
+}
+
+//  nesting
+
+nav {
+    ul {
+        li {
+            font : {
+                size : 16px;
+                weight : bold
+            }
+            a {
+                font-size: $font-size;
+                &:hover{
+                    background-color: $bg-color;
+                }
+            }
+        }
+    }
+}
+
+ // @mixin @include
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    @include center()
+}
+em {
+    @include center()
+}
+
+
+
+@mixin border($color,$width) {
+    border: $width solid $color;
+}
+
+
+.myArticle{
+    @include border(red, 1px)
+}
+.myArticle2{
+    @include border(green,3px )
+}
+
+
+
+// @extend 
+
+.button-basic{
+border: none;
+font-size: 13px;
+}
+.button-report{
+    @extend .button-basic;
+    transition: all 0.5s ease;
+}
+
+
+// @for
+ // i = 1 // .#{ }-#{$i}
+@for $i from 1 to 10 {
+    .#{article}-#{$i}{
+        width: 8.33% * $i;
+    }
+}
+
+
+@for $x from 1 to 6 {
+    .#{name}-#{$x}{
+        font-size: 6px + $x;
+    }
+}
+
+
+
+ // @if @else
+
+ @mixin avatar($size,$radius:true) {
+     width: $size;
+     height: $size;
+     @if ($radius) {
+        border-radius: 3px;
+     } @else{
+         border-radius: 13px;
+     }
+ }
+
+ .br-1 {
+     @include avatar(100px,$radius:false )
+ }
+ .br-2{
+     @include avatar(200px,$radius:true )
+ }
+
+
+// @content for media query
+
+@mixin query($width) {
+    @media (max-width:$width) {
+        @content;
+    }
+}
+
+h1{
+    @include query(400px){
+        color: red;
+    }
+}
+
