@@ -280,3 +280,20 @@ const categories = [
 // })
 
 // console.log(result3)
+
+
+
+// console.dir(document)
+
+
+// const image = document.getElementsByTagName("img")
+
+// for (let imgTag of image){
+//     imgTag.src = "//unsplash.it/500"
+// }
+
+// console.dir(image)
+
+
+// const link = document.querySelector(".a2")
+// console.log(link)
