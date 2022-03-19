@@ -1,0 +1,15 @@
+{
+  "name": "folder-31-28esfand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build" : "tailwindcss -i src/styles.css -o public/output.css -W"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
