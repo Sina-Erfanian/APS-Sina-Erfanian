@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bg-content {
+    @apply visited:text-blue-50
+}
