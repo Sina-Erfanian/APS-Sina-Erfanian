@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(37, 34, 34);
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(242, 225, 225);
+  font-family: sans-serif;
+  margin: 3rem 0;
+}
+
+button {
+  border: 0;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 12px;
+  background: rgb(241, 44, 44);
+  color: #fff;
+  cursor: pointer;
+  margin: 40px;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(240, 67, 67);
+    margin: 40px;
+    position: relative;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+@keyframes move {
+    from{
+        top: 0;
+    }
+    to {
+        top: 180px;
+    }
+}
