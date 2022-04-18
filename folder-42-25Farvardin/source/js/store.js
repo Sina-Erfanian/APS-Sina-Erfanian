@@ -93,6 +93,7 @@ function basketProduct(userBasket) {
     btnAdd.innerHTML = "REMOVE";
     btnAdd.addEventListener("click", () => {
       removeElem(ele.id);
+      totalPrice(basket)
     });
     cartQuantity.append(cartQuantityInput, btnAdd);
     cartItem.append(cartItemImg, cartItemTitle);
